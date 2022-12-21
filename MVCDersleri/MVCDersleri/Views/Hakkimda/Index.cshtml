@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Detay
+</button>
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" style="text-align:center">Proje Hakkında</h2>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <label>Bu proje; <br /> <i>Şeyda Arslan</i> tarafından 21 Aralık 2022 tarihinde <b style="color:darkred">"50 Derste MVC"</b> youtube serisi takip edilerek kodlanıp tamamlanmıştır. </label>
+                   <br /> <br />
+                    <p><b>Yapılan İşlemler : </b></p>
+                    <ol>
+                        <li>Crud İşlemleri</li>
+                        <li>DropDownListFor Kullanımı</li>
+                        <li>Popup Modal Kullanımı</li>
+                        <li>Search İşlemi</li>
+                        <li>PagedList Kullanımı</li>
+                        <li>jquery.datatables Kullanımı</li>
+                    </ol>
+
+
+                    <label style="color:midnightblue">Youtube Link :</label>
+                    <label> https://www.youtube.com/playlist?list=PLKnjBHu2xXNNRPqfdZC6hNmJKOqIIpqNj</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
